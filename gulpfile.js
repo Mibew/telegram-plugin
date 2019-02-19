@@ -46,9 +46,9 @@ gulp.task('prepare-release', ['composer-install'], function() {
 
     return eventStream.merge(
         getSources()
-            .pipe(zip('telegram-' + version + '.zip')),
+            .pipe(zip('telegram-plugin-' + version + '.zip')),
         getSources()
-            .pipe(tar('telegram-' + version + '.tar'))
+            .pipe(tar('telegram-plugin-' + version + '.tar'))
             .pipe(gzip())
     )
     .pipe(chmod(644))
