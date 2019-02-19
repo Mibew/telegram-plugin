@@ -1,0 +1,12 @@
+# Do not index node.js modules that are used for building
+node_modules
+
+# Do not index releases
+release
+
+# Do not include composer products
+vendor
+
+# Do not index composer files
+composer.phar
+composer.lock
