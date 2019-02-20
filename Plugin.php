@@ -60,7 +60,7 @@ class Plugin extends \Mibew\Plugin\AbstractPlugin implements \Mibew\Plugin\Plugi
 
     /**
      * This creates the listener that listens for new
-     * threads to send out slack notifications
+     * threads to send out notifications
      */
     public function run()
     {
